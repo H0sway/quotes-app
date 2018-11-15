@@ -22,5 +22,9 @@
     "express": "^4.16.4",
     "path": "^0.12.7",
     "pg-promise": "^8.5.2"
+  },
+  "devDependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }
