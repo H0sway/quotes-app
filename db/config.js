@@ -21,4 +21,6 @@ const setDataBase = () => {
 }
 
 const db = setDataBase();
+
+// Export the database
 module.exports = db;
