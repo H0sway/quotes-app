@@ -1,7 +1,7 @@
 // routes/quote-routes.js
 
 // Import express
-const express = require(express);
+const express = require('express');
 // Define the router using the express router
 const quoteRouter = express.Router();
 
