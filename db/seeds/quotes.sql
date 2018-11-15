@@ -24,7 +24,7 @@ INSERT INTO quotes (quote, author) VALUES
     'Marie Curie'
   ),
   (
-    'Youre a genius, but you are also an idiot. But thats okay because Im also a genius and an idiot!',
+    'Youre a genius, but youre also an idiot. But thats okay because Im also a genius and an idiot!',
     'Jason Zimmerman'
   ),
   (
