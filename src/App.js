@@ -4,13 +4,13 @@
 import React, {Component} from 'react';
 
 class App extends Component {
-  render(
+  render() {
     return (
       <div className="App">
         Hello World!
       </div>
     )
-  )
+  }
 };
 
 // Export the App component

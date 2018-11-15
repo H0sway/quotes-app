@@ -12,6 +12,10 @@ INSERT INTO quotes (quote, author) VALUES
     'Babe Ruth'
   ),
   (
+    'Life is this crazy thing, and sometimes you go out like a buster',
+    'Joseph Marquez'
+  ),
+  (
     'In conclusion, I understand nothing about the anomaly, even after cashing the huge check I got for writing a book about it. ',
     'Stephen Hawking'
   ),
@@ -39,7 +43,6 @@ INSERT INTO quotes (quote, author) VALUES
     'Up until they lose the game, they are winning.',
     'William Li'
   ),
-
   (
     'Dont worry. Youre just as sane as I am.',
     'Luna Lovegood'

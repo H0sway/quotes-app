@@ -23,7 +23,8 @@ Quote.findById = (id) => {
     `
       SELECT * FROM quotes
       WHERE id = $1
-    `
+    `,
+    [id]
   );
 };
 
