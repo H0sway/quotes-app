@@ -4,10 +4,10 @@
 const Quote =  require('../models/quote');
 
 // Instantiate the controller object
-const quotesController = {};
+const quoteController = {};
 
 // Controller method for handling a request for all quotes
-quotesController.findAll = (req, res) => {
+quoteController.findAll = (req, res) => {
   // Uses the findAll method from Quote
   Quote.findAll()
   .then(quotes => {
@@ -25,7 +25,7 @@ quotesController.findAll = (req, res) => {
 };
 
 // Controller method for handling a request for a single quote
-quotesController.findById = (req, res) => {
+quoteController.findById = (req, res) => {
   // Quotes method for finding by id, passes the id as an argument
   Quote.findById(req.params.id)
   .then(quote => {
@@ -43,4 +43,4 @@ quotesController.findById = (req, res) => {
 };
 
 // Export the controller
-module.exports = quotesController;
+module.exports = quoteController;
