@@ -1,0 +1,19 @@
+{
+  "name": "quotes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H0sway/quotes-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H0sway/quotes-app/issues"
+  },
+  "homepage": "https://github.com/H0sway/quotes-app#readme"
+}
