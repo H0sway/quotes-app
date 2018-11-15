@@ -20,6 +20,7 @@
   "homepage": "https://github.com/H0sway/quotes-app#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "path": "^0.12.7",
     "pg-promise": "^8.5.2"
   }
 }
