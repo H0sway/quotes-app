@@ -1,14 +1,18 @@
 // src/App.js
 
 // Import react and the component class
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+// Import BrowserRouter
+import { BrowserRouter as Router } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        Hello World!
-      </div>
+      <Router>
+        <div className="App">
+          
+        </div>
+      </Router>
     )
   }
 };
