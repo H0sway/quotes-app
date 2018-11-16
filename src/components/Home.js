@@ -2,6 +2,7 @@
 
 // Import react
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 // Axios for making GET requests
 import axios from 'axios';
 
@@ -41,7 +42,7 @@ class Home extends Component {
       return this.state.quotes.map(quote => {
         return (
           <div key={quote.id}>
-            <p>{quote.quote}</p>
+            <Link to={`/${this.props.match.params.id}`}>{quote.quote}</Link>
             <p>{quote.author}</p>
           </div>
         )

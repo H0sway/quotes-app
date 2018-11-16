@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // import each component
 import Home from './components/Home';
+import Quote from './components/Quote';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <div className="App">
 
           <Route exact path="/" component={Home} />
+          <Route exact path="/:id" component={Quote} />
 
         </div>
       </Router>
