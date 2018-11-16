@@ -1,0 +1,19 @@
+h3 {
+  margin: 1em auto;
+  font-size: 28px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #696969;
+}
+
+.App div {
+  margin: 2em auto;
+  padding: 20px;
+}

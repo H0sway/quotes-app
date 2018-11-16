@@ -42,8 +42,8 @@ class Home extends Component {
       return this.state.quotes.map(quote => {
         return (
           <div key={quote.id}>
-            <Link to={`/${this.props.match.params.id}`}>{quote.quote}</Link>
-            <p>{quote.author}</p>
+            <Link to={`/${quote.id}`}>"{quote.quote}"</Link>
+            <p>-{quote.author}</p>
           </div>
         )
       })
