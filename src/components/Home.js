@@ -43,7 +43,7 @@ class Home extends Component {
         return (
           <div key={quote.id}>
             <Link to={`/${quote.id}`}>"{quote.quote}"</Link>
-            <p>-{quote.author}</p>
+            <p className="author">-{quote.author}</p>
           </div>
         )
       })

@@ -35,8 +35,8 @@ class Quote extends Component {
     if (this.state.dataLoaded) {
       return (
         <div>
-          <p>"{quote.quote}"</p>
-          <p>-{quote.author}</p>
+          <p className="quote">"{quote.quote}"</p>
+          <p className="author">-{quote.author}</p>
         </div>
       )
     }
