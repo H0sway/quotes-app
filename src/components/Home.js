@@ -56,7 +56,7 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <h3>These are my favorite quotes</h3>
+        <h1>These are my favorite quotes</h1>
         {this.renderQuotes()}
       </div>
     )
